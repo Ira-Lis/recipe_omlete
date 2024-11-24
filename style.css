@@ -81,6 +81,7 @@ section:nth-child(2) h3 {
   color: #7a284e;
 }
 section:nth-child(2) ul {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -192,7 +193,7 @@ section:nth-child(7) p {
   line-height: 150%;
   color: var(--color-paragraf);
 }
- .proc p:nth-child(2) {
+.proc p:nth-child(2) {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
